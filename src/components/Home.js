@@ -4,6 +4,6 @@ export const Home = () =>{
 
     return (
 
-        <center><p>Computer Science and Engineering Student at Marmara University</p></center>
+        <center><p>Welcome to my Personal Website</p></center>
    );
 };
