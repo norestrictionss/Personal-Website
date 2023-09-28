@@ -14,6 +14,7 @@
 }
 p {
     font-family: 'Courier New', Courier, monospace;
+    animation: fadeIn 5s;
 }
 center p{
     display: block;
@@ -26,6 +27,11 @@ ul li{
 .project-container{
     margin-left: 100px;
     margin-top: 100px;;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .project-container div{
@@ -53,4 +59,28 @@ a{
 div h1{
     color: white;
     text-align: center;
+}
+center a {
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+body{
+    background-color: #A2AAE5;
+}
+
+.home{
+
+    margin-top: 500px;
+    margin-left: 700px;
+    font-size: 50px;
+}
+
+.about{
+    
+    margin-left: 100px;
+    margin-top: 50px;
 }

@@ -17,7 +17,10 @@ export const Projects = ()=>{
                 <h3>Meme Generator</h3>
                 <p>User can create memes based on the images parsed with an API and insert some texts on these images.</p>
             </div>
-            
+            <div>
+                <h3>Chess Tournament Management System</h3>
+                <p>That is console-based application that performs a tournaments depending on the input given by the user and the rules of the global chess system. </p>
+            </div>
         </div>
         
     );

@@ -4,6 +4,6 @@ export const Home = () =>{
 
     return (
 
-        <center><p>Welcome to my Personal Website</p></center>
+        <p className = "home">Welcome to my Personal Website</p>
    );
 };
